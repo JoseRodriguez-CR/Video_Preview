@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="./CSS/stylesheet.css" />
+        <title>VideoLab</title>
+	</head>	
+	<body>
+		<div class="navBar">
+            <h1 class="nav-title">VideoLab</h1>
+    		<!--<textarea id="description" name="descrition" > </textarea> Questions 
+			Is better to use text area or input tag for searching boxes?-->
+			<input type="Text" class="searchBar" placeholder="Search"/>
+			<button type="submit" class="login" onclick="Logout(this)">
+				login
+			</button>
+        </div>  
+		<div class="mainVideoContainer"> <!--Here starts code for main container-->
+			<video src="./video/pexels-mikhail-nilov-7989680.mp4" class = "prnVideo" muted controls onmouseover="playVideo(this)" onmouseleave="pauseVideo(this)" width="600" height="300"></video>
+			<div class = "mainVideo">
+				<p>How to start your working as Web Developer</p>
+				<button class = "subsBtn">
+					Subscribe
+				</button>
+			</div>
+			<p>1.3k views | June 18, 2021</p> 
+			<div class = "userName">
+				<img alt="user profile picture" src="./images/user-circle.png" style="width:50px;height:50px;" /> 
+				<p class = "userTitle">Example User Name</p>
+			</div>
+		</div> 
+		<div class="navBarVideoContainer"><!--Here start code for second container-->
+			<div class="title">
+				Up Next
+			</div>
+				<br/>
+				<br/>
+				<br/>
+			<div class="firstRow">
+				<video src="./video/pexels-mikhail-nilov-7989445.mp4" class = "video" muted onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" width="75" height="75"></video>
+				<p> 5 tips to improve coding skills</p>
+			</div>
+			<div class="secondRow">
+				<video src="./video/pexels-mikhail-nilov-7989755.mp4" class = "video"  muted onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" width="75" height="75"></video>
+				<p>Best practices</p>
+			</div>
+			<div class="thirdRow">
+				<video src="./video/pexels-mikhail-nilov-7989532.mp4" class = "video" muted onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" width="75" height="75"></video>
+				<p>Coding Bootcamps</p>
+			</div>
+			<div class="fourthRow">
+				<video src="./video/pexels-tea-oebel-6804121.mp4" class = "video" muted onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" width="75" height="75"></video>
+				<p>Coding Dojo Bootcamp </p>
+			</div>
+		</div>
+		<footer>
+			
+		</footer>
+		<script src="./js/index.js"></script>
+    </body>
+</html>

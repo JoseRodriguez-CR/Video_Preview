@@ -1,0 +1,149 @@
+
+/* Style features for navigation bar  */
+
+*{
+    font-family: cursive
+}
+
+/* Style for CSS Library btn from Button Up */
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    height: 50px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    align-items: center;
+    padding: 10px; 
+    position: absolute;
+    left:  350px;
+    border-top: 10px solid rgb(141, 47, 204);
+}
+
+h1 {
+    margin: 50px;
+}
+
+.searchBar {
+    width: 400px;
+}
+
+.login {
+    margin: 50px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+    border: 3px solid black;
+    background-color: rgb(141, 47, 204);
+    box-shadow: 3px 3px 3px black;
+}
+
+
+.prnVideo {    
+    border: 2px solid black;
+}
+
+.video {    
+    border: 2px solid rgb(141, 47, 204);
+    margin: 10px
+}
+
+.mainVideoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    color: black;
+    padding: 10px; 
+    position: absolute;
+    left:  350px;
+    top: 100px;
+    
+}
+
+.mainVideo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 10px 0px 0px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+
+}
+
+.subsBtn {
+    background-color: rgb(141, 47, 204);
+    color: white;
+    margin: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.userName {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.userTitle {
+    color: rgb(141, 47, 204);
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.navBarVideoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+    color: black;
+    padding: 10px; 
+    position: absolute;
+    left:  1000px;
+    top: 100px;
+}
+
+.title {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.thirdRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.fourthRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
